@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgrey"
+    tools:context="com.droidclan.samplefoodblog.PostActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/post_title"
+        android:layout_width="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/edittext_shape_two"
+        android:ems="10"
+        android:hint="Enter post title..."
+        android:inputType="textPersonName"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textColor="@color/post_heading"
+        android:textColorHint="@color/post_details"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/post_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <Button
+        android:id="@+id/submit_post_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:text="Submit"
+        android:background="@drawable/googlesigninbtn"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/toolbar_items"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:elevation="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/post_details"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:background="@drawable/edittext_shape_two"
+        android:gravity="top"
+        android:padding="15dp"
+        android:textColor="@color/post_heading"
+        android:textColorHint="@color/post_details"
+        android:textStyle="normal"
+        android:hint="Enter post details..."
+        app:layout_constraintBottom_toTopOf="@+id/submit_post_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_title" />
+
+    <ImageView
+        android:id="@+id/post_image"
+        android:scaleType="centerCrop"
+        android:clickable="true"
+        android:focusable="true"
+        android:elevation="10dp"
+        android:layout_width="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@color/com_facebook_device_auth_text" />
+
+</android.support.constraint.ConstraintLayout>

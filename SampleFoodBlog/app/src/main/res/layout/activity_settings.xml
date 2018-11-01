@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.droidclan.samplefoodblog.SettingsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:elevation="4dp"
+        android:background="@color/white"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:tint="@color/post_heading"
+            android:src="@drawable/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/title"
+            android:text="Settings"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/post_heading"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/com_facebook_profile_picture_blank_square"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/profile_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/name"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    app:cardCornerRadius="4dp"
+                    android:elevation="6dp">
+                    <ImageView
+                        android:paddingStart="10dp"
+                        android:layout_gravity="center_vertical|start"
+                        android:tint="@color/post_heading"
+                        android:src="@drawable/nameavatar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/profile_name"
+                        android:text="Robert Sniffer"
+                        android:layout_gravity="center_vertical|start"
+                        android:paddingStart="45dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/settings_black"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/email"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginTop="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    app:cardCornerRadius="4dp"
+                    android:elevation="6dp">
+                    <ImageView
+                        android:paddingStart="10dp"
+                        android:layout_gravity="center_vertical|start"
+                        android:tint="@color/post_heading"
+                        android:src="@drawable/mail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/profile_email"
+                        android:text="robertsniffer@gmail.com"
+                        android:paddingEnd="20dp"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:layout_gravity="center_vertical|start"
+                        android:paddingStart="45dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/settings_black"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/password"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginTop="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    app:cardCornerRadius="4dp"
+                    android:elevation="6dp">
+                    <ImageView
+                        android:paddingStart="10dp"
+                        android:layout_gravity="center_vertical|start"
+                        android:tint="@color/post_heading"
+                        android:src="@drawable/password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/profile_password"
+                        android:text="**********"
+                        android:paddingEnd="20dp"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:layout_gravity="center_vertical|start"
+                        android:paddingStart="45dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/settings_black"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/notification"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginTop="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    app:cardCornerRadius="4dp"
+                    android:elevation="6dp">
+                    <ImageView
+                        android:paddingStart="10dp"
+                        android:layout_gravity="center_vertical|start"
+                        android:tint="@color/post_heading"
+                        android:src="@drawable/notifications"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/notification_text"
+                        android:text="Notifications ON"
+                        android:paddingEnd="20dp"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:layout_gravity="center_vertical|start"
+                        android:paddingStart="45dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/settings_black"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <Switch
+                        android:id="@+id/nbtn"
+                        android:theme="@style/SwitchTheme"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:paddingEnd="15dp"
+                        android:layout_gravity="center_vertical|end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </android.support.v7.widget.CardView>
+
+                <Button
+                    android:id="@+id/logout_btn"
+                    android:elevation="5dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="Log me Out"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/logout_button"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp" />
+
+                <TextView
+                    android:id="@+id/version"
+                    android:textSize="15sp"
+                    android:textColor="@color/post_details"
+                    android:text="Version - 1.5"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,47 @@
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:foregroundTint="@color/toolbar_items"
+    android:background="@color/white"
+    android:elevation="4dp"
+    android:minHeight="?attr/actionBarSize"
+    android:maxHeight="?attr/actionBarSize"
+    android:layout_alignParentTop="true"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize">
+
+    <TextView
+        android:id="@+id/header"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:textSize="22sp"
+        android:textColor="@color/toolbar_items"
+        android:layout_gravity="center"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileimage"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/com_facebook_profile_picture_blank_square"/>
+
+    <ImageView
+        android:id="@+id/search"
+        android:src="@drawable/search"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginEnd="15dp"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:focusable="true" />
+
+</android.support.v7.widget.Toolbar>

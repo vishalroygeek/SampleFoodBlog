@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="white">#FFF</color>
+    <color name="lightgrey">#ececec</color>
+    <color name="darkwhite">#ececec</color>
+    <color name="green">#56ab2f</color>
+    <color name="gren_br">#5ec131</color>
+    <color name="cream">#e9bfa0</color>
+    <color name="toolbar_items">#313131</color>
+    <color name="yellow">#FFCB2B</color>
+    <color name="grey">#5b5b5b</color>
+
+    <!--Post card colors-->
+    <color name="post_heading">#2e2e2e</color>
+    <color name="post_details">#747474</color>
+
+    <color name="settings_black">#535353</color>
+</resources>

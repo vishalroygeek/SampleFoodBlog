@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Main App Theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/darkwhite</item>
+        <item name="colorPrimaryDark">@color/darkwhite</item>
+        <item name="colorAccent">@color/toolbar_items</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowAnimationStyle">@style/SlideDialogAnimation</item>
+    </style>
+
+    <style name="SearchActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/darkwhite</item>
+        <item name="colorPrimaryDark">@color/darkwhite</item>
+        <item name="colorAccent">@color/toolbar_items</item>
+    </style>
+
+    <!--Register Activity Theme-->
+    <style name="LoginRegisterActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/cream</item>
+        <item name="colorAccent">@color/green</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <!-- Progress Dialog Theme -->
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/green</item>
+    </style>
+
+    <!-- Comment Dialog Theme -->
+    <style name="Comment_Dialog_Theme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="colorAccent">@color/post_details</item>
+        <item name="android:windowAnimationStyle">@style/SlideDialogAnimation</item>
+    </style>
+
+    <!-- Slide up animation -->
+    <style name="SlideDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/translate_up</item>
+        <item name="android:windowExitAnimation">@anim/translate_down</item>
+    </style>
+
+
+    <style name="SwitchTheme" >
+        <item name="colorControlActivated">#2fd66e</item>
+    </style>
+
+</resources>

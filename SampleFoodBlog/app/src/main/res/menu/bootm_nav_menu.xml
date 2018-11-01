@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/trending"
+        android:title="Trending"
+        android:icon="@drawable/trending"/>
+    <item
+        android:id="@+id/bookmarks"
+        android:title="Bookmarks"
+        android:icon="@drawable/bookmark"/>
+    <item
+        android:id="@+id/activity"
+        android:title="Activity"
+        android:icon="@drawable/activity"/>
+
+</menu>
