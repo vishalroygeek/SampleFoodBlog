@@ -14,6 +14,8 @@ Built with [Firebase 🔥](https://firebase.google.com)
 
 [Download demo APK 😉](https://drive.google.com/open?id=1cJF0VfEF5032WMvD4J2WHJr8mU-jFWni)
 
+Note - I am not maintaining this repository anymore.
+
 ## License
 
 ```
