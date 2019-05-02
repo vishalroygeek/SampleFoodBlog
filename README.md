@@ -1,6 +1,6 @@
 # SampleFoodBlog
 
-This is just a simple blog application, having contents related to Food. I had created this app when I was a beginner in android app development. This app is not so perfect, so please avoid mistakes. But still it can be helpful for a beginner 😎
+A simple blog application, having contents related to Food. I created this app when I was a beginner in android app development. This app is not so perfect, so please avoid mistakes. But still it can be helpful for a beginner, so feel free to fork & use it 😎
 
 Built with [Firebase 🔥](https://firebase.google.com)
 
@@ -10,12 +10,9 @@ Built with [Firebase 🔥](https://firebase.google.com)
 <img src="https://github.com/vishalroygeek/SampleFoodBlog/blob/master/ScreenShots/Screenshot%203.png" width="200">  <img src="https://github.com/vishalroygeek/SampleFoodBlog/blob/master/ScreenShots/Screenshot%204.png" width="200">
 <img src="https://github.com/vishalroygeek/SampleFoodBlog/blob/master/ScreenShots/Screenshot%205.png" width="200">  <img src="https://github.com/vishalroygeek/SampleFoodBlog/blob/master/ScreenShots/Screenshot%206.png" width="200">
 
+---
 
-
-[Download demo APK 😉](https://drive.google.com/open?id=1cJF0VfEF5032WMvD4J2WHJr8mU-jFWni)
-
-
-Note - I am not maintaining this repository anymore.
+**[DOWNLOAD APK](https://drive.google.com/open?id=1Oigwnd-5JPkT2CbqRk7B303Ow8jERpPn)**
 
 ## License
 
