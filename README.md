@@ -10,10 +10,6 @@ Built with [Firebase 🔥](https://firebase.google.com)
 <img src="https://github.com/vishalroygeek/SampleFoodBlog/blob/master/ScreenShots/Screenshot%203.png" width="200">  <img src="https://github.com/vishalroygeek/SampleFoodBlog/blob/master/ScreenShots/Screenshot%204.png" width="200">
 <img src="https://github.com/vishalroygeek/SampleFoodBlog/blob/master/ScreenShots/Screenshot%205.png" width="200">  <img src="https://github.com/vishalroygeek/SampleFoodBlog/blob/master/ScreenShots/Screenshot%206.png" width="200">
 
----
-
-**[DOWNLOAD APK](https://drive.google.com/open?id=1Oigwnd-5JPkT2CbqRk7B303Ow8jERpPn)**
-
 ## LICENSE
 
 ```
