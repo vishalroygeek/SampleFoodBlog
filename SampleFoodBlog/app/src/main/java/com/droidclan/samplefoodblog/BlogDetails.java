@@ -74,7 +74,7 @@ public class BlogDetails extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_blog_details);
 
-        //Finding view by id
+        //Finding view by id updating comment directly in github
         post_image = findViewById(R.id.post_image);
         user_image = findViewById(R.id.user_image);
         user_name = findViewById(R.id.user_name);
